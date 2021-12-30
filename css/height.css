@@ -1,0 +1,7 @@
+.main {
+  min-height: 400px;
+}
+
+.footer {
+  position: static;
+}
