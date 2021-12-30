@@ -1,0 +1,27 @@
+/* FOOTER */
+
+.footer {
+  height: 10rem;
+}
+
+.footer-nav {
+  height: 5rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-nav__section--left {
+  width: 50%;
+  height: 100%;
+  max-width: 40rem;
+}
+
+.footer-nav__section--left p {
+  color: rgb(177, 177, 177);
+}
+
+.footer-nav__section--right {
+  width: 50%;
+  max-width: 30rem;
+  height: 100%;
+}

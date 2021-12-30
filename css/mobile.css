@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+body {
+  background: rgb(33, 33, 36);
+  color: white;
+  min-width: 300px;
+}
+p {
+  font-size: 1.4rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.link {
+  color: #62b3ff;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.header p {
+  color: white;
+}
+.header p:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.header-nav {
+  width: 100%;
+  min-width: 20rem;
+  max-width: 22rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#profile-picture {
+  max-width: 30px;
+  border-radius: 100%;
+}
+
+.header-nav svg:hover {
+  background-color: rgb(99, 99, 99);
+  border-radius: 100%;
+}
+
+/* MAIN */
+
+.main {
+  width: 100%;
+  height: calc(100vh - 6rem - 20rem);
+  display: flex;
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#youtube-logotipe {
+  max-width: 250px;
+  min-width: 200px;
+  width: 50%;
+}
+
+.search-input-container {
+  margin-top: 2rem;
+  display: flex;
+  max-height: 4.5rem;
+  min-width: 30rem;
+  width: 70%;
+  max-width: 60rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5rem;
+  border: .1rem rgb(99, 99, 99) solid;
+}
+.search-input-container:hover {
+  border: .1rem transparent solid;
+  background-color: rgb(51, 51, 51);
+}
+
+#search-input {
+  border: 0;
+  width: 90%;
+  height: 100%;
+  padding: 2rem 0;
+  background-color: transparent;
+  color: white;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+#search-input:focus-visible {
+  outline: 0;
+}
+
+.container-button-search {
+  margin: 3rem 0;
+  min-width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-search {
+  padding: .8rem 1.5rem;
+  background-color: rgb(54, 54, 54);
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: white;
+  font-weight: 500px;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.button-search:hover {
+  border: 1px solid rgb(121, 121, 121);
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-section {
+  width: 100%;
+  height: 50%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+  color: rgb(177, 177, 177);
+}
+.footer-section p {
+  margin-left: 3rem;
+}
+
+.footer-nav {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(22, 22, 22);
+  margin-top: 0.5px;
+}
+
+.footer-nav__section--left {
+  width: 90%;
+  max-height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-nav__section--left p {
+  color: rgb(177, 177, 177);
+}
+.footer-nav__section--left p:first-child {
+  margin-left: 1rem;
+}
+.footer-nav__section--left p:hover {
+  text-decoration: underline;
+}
+
+.footer-nav__section--right {
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-nav__section--right p {
+  color: rgb(177, 177, 177);
+}
+.footer-nav__section--right p:hover {
+  text-decoration: underline;
+}
